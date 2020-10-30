@@ -1,11 +1,21 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Venna App</string>
+=======
+    <string name="app_name">Implicit Intents</string>
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
     <string name="edittext_uri">http://developer.android.com</string>
     <string name="button_uri">Open Website</string>
 
     <string name="edittext_loc">Golden Gate Bridge</string>
     <string name="button_loc">Open Location</string>
 
+<<<<<<< HEAD
     <string name="edittext_share">\'This is the sharing App</string>
     <string name="button_share">Share This Text</string>
+=======
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">s_txt</string>
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
 </resources>

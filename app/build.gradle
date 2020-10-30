@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 plugins {
     id 'com.android.application'
 }
+=======
+apply plugin: 'com.android.application'
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.example.vennaapp"
+=======
+        applicationId "com.example.implicitintents"
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -22,6 +30,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+<<<<<<< HEAD
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -36,4 +45,16 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+=======
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
 }

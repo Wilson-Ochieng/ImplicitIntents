@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.vennaapp">
+=======
+    package="com.example.implicitintents" >
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
 
     <application
         android:allowBackup="true"
@@ -8,8 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.VennaApp">
         <activity android:name=".MainActivity">
+=======
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+>>>>>>> 726356909d120437984f0bfb772de451b4420b30
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
